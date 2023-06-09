@@ -9,14 +9,22 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
-    "element-ui": "^2.15.1",
+    "element-ui": "^2.15.7",
+    "lodash": "^4.17.21",
     "message-template-creator": "^0.1.11",
     "monaco-editor": "^0.22.3",
     "normalize.css": "^8.0.1",
+    "react": "^17.0.2",
+    "react-countup": "^5.2.0",
+    "react-dom": "^17.0.2",
+    "runtime-import": "^2.0.0",
     "vue": "^2.6.11",
+    "vue-module-loader": "^1.0.3",
+    "vue-pdf": "^4.3.0",
     "vue-router": "^3.2.0",
+    "vuera": "^0.2.7",
     "vuex": "^3.4.0",
-    "wangeditor-vue": "^1.0.14"
+    "wangeditor-vue": "^1.0.16"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
@@ -45,5 +53,8 @@
       "vue-cli-service lint",
       "git add"
     ]
+  },
+  "peerDependencies": {
+    "loadash": "^1.0.0"
   }
 }

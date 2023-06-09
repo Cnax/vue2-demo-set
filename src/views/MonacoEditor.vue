@@ -3,9 +3,7 @@
     <h3 class="page-title">Monaco Editor</h3>
     <monaco-editor v-model="editorContent" class="monaco" />
     <p class="title"> 预览：</p>
-    <div class="preview">
-      {{ editorContent }}
-    </div>
+   <div class="preview">{{ editorContent }}</div>
   </div>
 </template>
 
@@ -18,6 +16,12 @@ export default {
     return {
       editorContent: ''
     }
+  },
+  created () {
+    console.log(this.$moduleLoader)
+    this.$moduleLoader({
+
+    })
   }
 }
 </script>

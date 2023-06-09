@@ -30,6 +30,30 @@ export const routes = [
     name: 'WangEditor',
     meta: { title: 'Wang Editor Vue', isShow: true },
     component: () => import(/* webpackChunkName: "WangEditor" */'@/views/WangEditor.vue')
+  },
+  {
+    name: 'RcInVc',
+    path: '/rc-in-vc',
+    meta: { title: 'RC in VC', isShow: true },
+    component: () => import(/* webpackChunkName: "RcInVc" */'@/views/RcInVc.vue')
+  },
+  {
+    name: 'TestDialog',
+    path: '/test-dialog',
+    meta: { title: 'TestDialog', isShow: true },
+    component: () => import(/* webpackChunkName: "TestDialog" */'@/views/TestDialog.vue')
+  },
+  {
+    name: 'VuePdfViewer',
+    path: '/pdf-viewer',
+    meta: { title: 'VuePdfViewer', isShow: true },
+    component: () => import(/* webpackChunkName: "VuePdfViewer" */'@/views/VuePdfViewer.vue')
+  },
+  {
+    name: 'Textarea',
+    path: '/textarea',
+    meta: { title: 'Textarea', isShow: true },
+    component: () => import(/* webpackChunkName: "Textarea" */'@/views/Textarea.vue')
   }
 ]
 
